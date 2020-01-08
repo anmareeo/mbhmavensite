@@ -1,24 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
+import Intro from './Intro';
+import Offer from './Offer';
 import './App.css';
+import InfoForm from "./InfoForm"
+import SearchAppBar from "./SearchAppBar"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <SearchAppBar></SearchAppBar>
+    <Intro></Intro> 
+    {/* can drop attributes into these tags and call them with props */}
+    <Offer></Offer>
+    <InfoForm></InfoForm>
     </div>
   );
 }

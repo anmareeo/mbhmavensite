@@ -36,3 +36,228 @@
     transform: rotate(360deg);
   }
 }
+
+html {
+  max-width: 1280px;
+  }
+  body{
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+      
+  }
+  #box{
+      width:1200px;
+      margin:20px;
+      
+  
+  }
+  
+  #container { 
+      width:1050px;
+      height:100px;
+      margin: 20px;
+      padding: 1px 10px 20px 10px;
+  }
+  
+  #header{
+      height: 100px;
+      padding: 10px 0px;
+  }
+  #brand{
+      float: right;
+  }
+  h2 a{
+      font-size: 50px;
+      font-weight: 100;
+      color: blue;
+      text-decoration: none;
+  }
+  
+  #searchBox{
+      float: right;
+      width: 300px;
+      height: 3;
+      padding: 1px 20px;
+    
+  }
+  
+  .text{
+      float: right;
+      width:200px;
+      padding:5px;
+      font-size:15px;
+      color: blue;
+      /* background: white url(Magnifying\ Glass.png) right center no-repeat; */
+      border: 1px solid navy;
+    
+  }
+  
+  .submit{
+      float: right;
+      padding: 5px;
+      font-weight: bold;
+      color: black;
+      background: gray;
+      font-size: 15px;
+  }
+  
+  .clear{
+      clear: both;
+  }
+  
+  #menu{
+      height: 55px;
+      background-color: lightskyblue;
+      padding: 1px 10px 3px 10px;
+      
+  }
+  ul{
+      list-style:none;
+  }
+  #menu  ul li{
+      float: left;
+      padding: 0 10px;
+      height: 20px;
+      border-right: 1px darkblue;
+      line-height: 30px;
+  }
+  
+  #menu ul li:last-child{
+      border-right: none;
+  }
+  
+  #menu ul li a{
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 17px;
+      color: darkblue;
+      transition: font-size .3s ease;
+  }
+  
+  #menu ul li a:hover, #menu ul li a:active{
+      font-size: 20px;
+      font-weight: bold;
+      color: blue;
+  }
+  
+  #introduction{
+      padding: 15px;
+      margin:16px 0;
+      text-align: center;
+  
+  }
+  
+  #introduction h3{
+      font-size:45px;
+      color: lightskyblue;
+      font-weight: normal;
+      text-shadow: 1px 1px 1px black;
+  }
+  
+  #introduction p{
+      font-size: 25px;
+      color: navy;
+      text-align: justify;
+  }
+  * {
+      box-sizing:border-box;
+  }
+  
+  .flexbox{
+      height:200px; 
+      margin: -10px 10px 40px 10px;
+      float: center;
+      padding-left:100px;
+      padding-right:50px;
+      padding-bottom: 100px;
+      
+  
+  }
+  
+  .flexbox > img{
+      text-align: center;
+      padding:30px;
+      margin:10px;
+      float: center;
+      
+  
+  }
+  
+  .sidebar{
+      height: 600px;
+      width: 470px;
+      border: 1px solid darkblue;
+      border-radius: 20px;
+      padding: 10px 30px;
+  }
+  
+  #leftsidebar{
+      float: left;
+  
+  }
+  
+  #rightsidebar{
+      float: right;
+  }
+  
+  .sidebar h3{
+      color: darkblue;
+      font-size: 30px;
+  
+  }
+  .sidebar ul li a{
+      text-decoration: none;
+      font-size: 20px;
+      color: blue;
+  }
+  
+  .sidebar ul li a:hover, .sidebar ul li a:active{
+      text-decoration: none;
+      color:blue;
+      font-size:23px;
+      font-weight:bold;
+  
+  }
+  
+  .sidebar ul{
+      padding-top: 5px;
+  }
+  #leftsidebar ul li{
+      padding-bottom: 6px;
+      padding-left: 10px;
+      /* list-style-image: url(arrow.png); */
+  }
+  
+  #rightsidebar ul li{
+      padding-bottom: 12px;
+      /* list-style-image: url(checkmark.png); */
+  }
+  
+  #credit{
+      /* height:100px; */
+      /* width: 420px; */
+      align-content: center;
+      padding: 2px;
+      margin-top:-30px;
+  
+  }
+  
+  #credit h6{
+      padding: none;
+      margin-bottom: 2px;
+  
+  }
+  
+  #credit button{
+      padding: 2px;
+      float: right;
+      border-radius:5px;
+      
+   }
+  
+   .footer{
+       height:12 0px;
+       background: lightskyblue;
+       padding: 10px 30px;
+       margin-top:30px;
+       border-radius:20px;
+   }
