@@ -97,11 +97,14 @@ export default function SearchAppBar() {
         onClose={handleClose}
       >
         <MenuItem onClick={handleClose} component = {RLink} to = "/about">About</MenuItem>
-        <MenuItem onClick={handleClose}>My account</MenuItem>
-        <MenuItem onClick={handleClose}>Logout</MenuItem>
+        <MenuItem onClick={handleClose} component = {RLink} to = "/types">Organizing Types</MenuItem>
+        <MenuItem onClick={handleClose} component = {RLink} to = "/photos">Photos</MenuItem>
+        <MenuItem onClick={handleClose} component = {RLink} to = "/contact">Contact Me</MenuItem>
+        {/* <MenuItem onClick={handleClose}>My account</MenuItem> */}
+        {/* <MenuItem onClick={handleClose}>Logout</MenuItem> */}
         <MenuItem onClick={handleClose} component = {RLink} to = "/">Home</MenuItem>
       </Menu>
-          <Typography className={classes.title} variant="h6" noWrap>
+          <Typography className={classes.title} variant="h2" noWrap>
             Mess Be Haven Maven
           </Typography>
           <div className={classes.search}>
