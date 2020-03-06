@@ -124,7 +124,7 @@ export default function Intro(props) {
             </Typography>
           </span>
         </ButtonBase>
-      ))}
+      
         <img src= {Ladybug} alt="ladybug"/>
         <img src= {Bee} alt="bee"/>
         <img src= {Cricket3} alt="cricket"/>
